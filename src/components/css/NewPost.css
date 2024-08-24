@@ -1,0 +1,65 @@
+.new-post-container {
+  max-width: 600px; /* Reduced width */
+  margin: 30px auto; /* Reduced margin */
+  margin-top: 60px;
+  padding: 10px; /* Reduced padding */
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.new-post-container h2 {
+  text-align: center;
+  color: #6947bf;
+  margin-bottom: 15px; /* Reduced margin */
+  font-size: 20px; /* Reduced font size */
+}
+
+.new-post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Reduced gap between elements */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 3px; /* Reduced margin */
+  font-weight: bold;
+  color: #333;
+  font-size: 14px; /* Reduced font size */
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 8px; /* Reduced padding */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px; /* Reduced font size */
+  width: 97%;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 80px; /* Reduced minimum height */
+  max-height: 150px; /* Added maximum height */
+}
+
+.submit-button {
+  padding: 8px 16px; /* Reduced padding */
+  border: none;
+  border-radius: 5px;
+  background-color: #6947bf;
+  color: white;
+  font-size: 14px; /* Reduced font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: center;
+}
+
+.submit-button:hover {
+  background-color: #5631a9;
+}

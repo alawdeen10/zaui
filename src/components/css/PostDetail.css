@@ -1,0 +1,16 @@
+.post-detail {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  max-height: 60vh;
+}
+
+.post-detail h2 {
+  color: #333;
+}
+
+.post-detail p {
+  color: #555;
+}
