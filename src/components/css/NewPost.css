@@ -1,8 +1,8 @@
 .new-post-container {
-  max-width: 600px; /* Reduced width */
-  margin: 30px auto; /* Reduced margin */
+  max-width: 600px;
+  margin: 30px auto;
   margin-top: 60px;
-  padding: 10px; /* Reduced padding */
+  padding: 10px;
   background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
@@ -11,14 +11,14 @@
 .new-post-container h2 {
   text-align: center;
   color: #6947bf;
-  margin-bottom: 15px; /* Reduced margin */
-  font-size: 20px; /* Reduced font size */
+  margin-bottom: 15px;
+  font-size: 20px;
 }
 
 .new-post-form {
   display: flex;
   flex-direction: column;
-  gap: 10px; /* Reduced gap between elements */
+  gap: 10px;
 }
 
 .form-group {
@@ -27,34 +27,34 @@
 }
 
 .form-group label {
-  margin-bottom: 3px; /* Reduced margin */
+  margin-bottom: 3px;
   font-weight: bold;
   color: #333;
-  font-size: 14px; /* Reduced font size */
+  font-size: 14px;
 }
 
 .form-group input,
 .form-group textarea {
-  padding: 8px; /* Reduced padding */
+  padding: 8px;
   border-radius: 5px;
   border: 1px solid #ccc;
-  font-size: 14px; /* Reduced font size */
+  font-size: 14px;
   width: 97%;
 }
 
 .form-group textarea {
   resize: vertical;
-  min-height: 80px; /* Reduced minimum height */
-  max-height: 150px; /* Added maximum height */
+  min-height: 80px;
+  max-height: 150px;
 }
 
 .submit-button {
-  padding: 8px 16px; /* Reduced padding */
+  padding: 8px 16px;
   border: none;
   border-radius: 5px;
   background-color: #6947bf;
   color: white;
-  font-size: 14px; /* Reduced font size */
+  font-size: 14px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   align-self: center;
